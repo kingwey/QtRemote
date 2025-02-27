@@ -1,0 +1,54 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCallingNonCallableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyDefaultArgumentInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodParametersInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+          <option value="E501" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="print" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="clr.AddReference" />
+          <option value="System" />
+          <option value="AxMSTSCLib" />
+          <option value="leqee_rdp.auto_connect.Label" />
+          <option value="leqee_rdp.auto_connect.SystemColors" />
+          <option value="leqee_rdp.auto_connect.FontStyle" />
+          <option value="leqee_rdp.auto_connect.Font" />
+          <option value="leqee_rdp.auto_connect.GraphicsUnit" />
+          <option value="leqee_rdp.auto_connect.Button" />
+          <option value="leqee_rdp.auto_connect.Form" />
+          <option value="leqee_rdp.auto_connect.Ping" />
+          <option value="leqee_rdp.auto_connect.IPStatus" />
+          <option value="leqee_rdp.auto_connect.MessageBox" />
+          <option value="leqee_rdp.auto_connect.MessageBoxButtons" />
+          <option value="leqee_rdp.auto_connect.MessageBoxIcon" />
+          <option value="leqee_rdp.auto_connect.DialogResult" />
+          <option value="leqee_rdp.auto_connect.Application" />
+          <option value="leqee_rdp.test.*" />
+          <option value="test_dir.py3.Label" />
+          <option value="test_dir.py3.*" />
+          <option value="auto_connect.*" />
+          <option value="lee_rdp.*" />
+          <option value="MSTSCLib" />
+          <option value="PyQt5.QtCore.Qt.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,51 @@
+QMainWindow {
+    background-color: #C9DEE6;
+    border: 3px solid rgb(150, 200, 200);
+    border-radius:10px;
+    min-width: 1121;
+    min-height:766;
+    padding: 10px;
+}
+QGroupBox {
+    border: 2px dashed white;
+    border-radius: 3px;
+    padding: 5px;
+}
+QPushButton {
+    background-color: lightblue;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+QLabel {
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+QLineEdit {
+    background-color: #ffffff;
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+QTableWidget {
+    background-color: rgb(255,255,255);
+    border-radius: 5px;
+    padding: 7px;
+}
+QHeaderView {
+	border-bottom: 2px solid gray;
+}
+QAxWidget {
+    /*max-width: 192;
+    max-height: 108;*/
+}
+QPlainTextEdit {
+    border: 2px solid lightblue;
+    border-radius: 2px;
+}
+
