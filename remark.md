@@ -55,13 +55,13 @@ pip install pyinstaller==5.4.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ## 命令行：切换至项目目录
 cd /d E:\python-code\QtRemote
 ## 命令行：生成exe
-pyinstaller -w -i "./img/logo.ico" -n QtRemote –-distpath "./" --uac-admin "main.py" 
---add-data "domain.pem;.\\\\." 
+pyinstaller -w -i "./img/logo.ico" -n QtRemote --distpath "./" --uac-admin "main.py" 
+--paths="./venv/Lib/site-packages" 
 --add-data "ui;ui" 
 --add-data "css;css" 
 --add-data "img;img" 
---add-data "core;core" 
---add-data "E:\python-code\QtRemote\venv\Lib\site-packages\rsa;rsa" 
+--add-data "core;core"
+--hidden-import rsa 
 --hidden-import hmac 
 --hidden-import json 
 --hidden-import psutil 
@@ -76,4 +76,5 @@ pyinstaller -w -i "./img/logo.ico" -n QtRemote –-distpath "./" --uac-admin "ma
 
 ## 【开始】菜单
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+
 
